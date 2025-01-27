@@ -13,6 +13,7 @@ La transazione ZLFEX esegue il report ZLFEX_UI che fa da interfaccia utente, tut
 - quantità
 - data ordine
 - valuta (default €)
+
 E come output:
 - tabella con i dati, la prima riga è il fornitore più conveniente
 Gli altri metodi privati eseguono operazioni atomiche, in modo da semplificare eventuali modifiche alla logica, nello specifico:
