@@ -16,6 +16,7 @@ La transazione ZLFEX esegue il report ZLFEX_UI che fa da interfaccia utente, tut
 
 E come output:
 - tabella con i dati, la prima riga è il fornitore più conveniente
+
 Gli altri metodi privati eseguono operazioni atomiche, in modo da semplificare eventuali modifiche alla logica, nello specifico:
 - GET_SUPPLIERS_STOCK_PRICE -> estrae i dati iniziali del materiale, stock e prezzo per i fornitori
 - GET_SUPPLIERS_DISCOUNTS -> estrae i dati degli sconti relativi ai fornitori coinvolti
